@@ -1,0 +1,30 @@
+[project]
+name = "docx-track"
+version = "0.1.0"
+description = "Word tracked-changes CLI: list, diff, edit, accept and verify .docx files"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "docx-track contributors" }]
+keywords = ["docx", "word", "tracked-changes", "ooxml", "cli", "diff"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Office Suites",
+    "Topic :: Text Processing :: Markup :: XML",
+]
+dependencies = ["lxml>=5.0"]
+
+[project.scripts]
+docxtrack = "docxtrack.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/socamalo/docx-track"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/docxtrack"]

@@ -1,0 +1,11 @@
+{
+  "author": "Reviewer",
+  "date": "2026-11-11T00:00:00Z",
+  "ops": [
+    {"op": "replace", "para": "production data stays inside the fence", "find": "fence", "with": "port boundary"},
+    {"op": "set", "para": "Yes. All five container terminals", "text": "Yes. All five container terminals are live on one 5G core and one management platform."},
+    {"op": "insert_after", "para": "Evidence:", "text": "Evidence link: [URL to be supplied once published.]", "style": "BodyText"},
+    {"op": "delete", "para": "Capacity in service:", "hard": true},
+    {"op": "comment", "para": 0, "text": "Check the entry name against the form."}
+  ]
+}

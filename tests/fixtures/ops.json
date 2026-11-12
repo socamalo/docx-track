@@ -1,0 +1,11 @@
+{
+  "author": "Reviewer",
+  "date": "2026-11-11T00:00:00Z",
+  "ops": [
+    {"op": "replace", "para": "mentions a fence", "find": "fence", "with": "port boundary"},
+    {"op": "set", "para": "Bold lead.", "text": "Bold lead. This is the first body paragraph, revised."},
+    {"op": "insert_after", "para": 3, "text": "Added by batch apply.", "style": "BodyText"},
+    {"op": "delete", "para": "bullet two"},
+    {"op": "comment", "para": 0, "text": "Check the title."}
+  ]
+}
